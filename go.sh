@@ -4,4 +4,4 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 mkdir -p "./XIAOMI-FILE"
-source "./.bin/xiaomi_tools/xiaomi_tools.cfg"
+bash "./.bin/xiaomi_tools/xiaomi_tools.cfg"
